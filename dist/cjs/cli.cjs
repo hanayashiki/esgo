@@ -22,8 +22,8 @@ var __toModule = (module2) => {
 var import_yargs = __toModule(require("yargs"));
 var import_helpers = __toModule(require("yargs/helpers"));
 var main = () => {
-  const argv = process.argv[0] === "your-cli-name" ? ["node", ...process.argv] : process.argv;
-  (0, import_yargs.default)((0, import_helpers.hideBin)(argv)).command("command1 [config]", "Helper text for command1. ", (_y) => {
+  const finalArgv = process.argv[0] === "your-cli-name" ? ["node", ...process.argv] : process.argv;
+  (0, import_yargs.default)((0, import_helpers.hideBin)(finalArgv)).command("command1 [config]", "Helper text for command1. ", (_argv) => {
   }).help().demand(1, "Must provide a valid command").parse();
 };
 main();

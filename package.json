@@ -1,10 +1,10 @@
 {
-  "name": "@monoid-dev/ts-npm-boilerplate",
+  "name": "esgo",
   "version": "0.0.1",
   "private": false,
   "description": "Generate routing with code-splitting",
   "author": "Chenyu Wang <cwang592@usc.edu>",
-  "repository": "https://github.com/MonoidDev/ts-npm-boilerplate",
+  "repository": "https://github.com/hanayashiki/esgo",
   "license": "MIT",
   "keywords": [
     "typescript"
@@ -28,7 +28,8 @@
     "ts": "esmo",
     "build": "yarn clean && yarn tsc && yarn esbuild",
     "esbuild": "node esbuild.js",
-    "prepare": "yarn lint && yarn build"
+    "prepare": "yarn lint && yarn build",
+    "test:native": "go test ./..."
   },
   "devDependencies": {
     "@types/jest": "^26.0.21",

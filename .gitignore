@@ -2,6 +2,7 @@ node_modules/
 /build/
 /lib/
 /docs/
+/vendor/
 .idea/*
 
 .DS_Store

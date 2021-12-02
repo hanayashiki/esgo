@@ -5,7 +5,7 @@
     "ts": "esmo"
   },
   "dependencies": {
-    "ts-npm-boilerplate": "link:../../"
+    "esgo": "link:../../"
   },
   "devDependencies": {
     "esmo": "^0.10.1"

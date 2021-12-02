@@ -1,3 +1,3 @@
-import { hello } from 'ts-npm-boilerplate';
+import { hello } from 'esgo';
 
 console.log(hello);
